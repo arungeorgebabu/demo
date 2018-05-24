@@ -1,0 +1,13 @@
+cp /var/lib/jenkins/workspace/CI-SRC-ECS/target/NumberGenerator-1.0.1-SNAPSHOT.jar /var/lib/jenkins/workspace/CI-SRC-ECS/Docker
+cd /var/lib/jenkins/workspace/CI-SRC-ECS/Docker
+
+export AWS_ACCESS_KEY_ID=AKIAIVUEPN74HBRUGUOQ
+export AWS_SECRET_ACCESS_KEY=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
+export AWS_REGION=us-east-1
+export AWS_ACC_ID=187583191801
+export AWS_ECR_REPO_NAME=george
+
+#eval $(aws ecr get-login --region us-east-1 | sed 's|https://||')
+docker build -t george_app .
+docker tag george_app 187583191801.dkr.ecr.us-east-1.amazonaws.com/george:latest
+docker push  187583191801.dkr.ecr.us-east-1.amazonaws.com/george:latest

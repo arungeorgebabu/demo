@@ -1,0 +1,36 @@
+*show all connected wifi connections through command prompt
+netsh wlan show profiles
+for finding tha passwords of specific wifi connections
+netsh wlan show profile name=wifiname key=clear
+
+
+
+
+add = 5+6
+sub = 4-5
+print(add)
+print(sub)
+print('arun')
+print('single quote \"inside\" example')
+
+print(len("vengance jcjdj"))
+
+print("GEORGE" .lower())
+print("python" .upper())
+name=input("what is your name")
+occupation=input("what is your occupation")
+print("your name is %s and your occupation is %s" % (name,occupation))
+if 10==9:
+    print("both are same")
+elif 5!=11:
+    print("this is correct")
+elif 11<32:
+    print("check the statement")
+else:
+    print("nothing is correct")
+
+public ip
+119.82.97.210 -spectranet
+106.51.39.33- Act
+
+https://www.youtube.com/watch?v=XH9RfPOl-AM

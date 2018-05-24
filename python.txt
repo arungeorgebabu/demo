@@ -1,0 +1,65 @@
+*STRING METHODS
+1. len()   
+it is for finding the length of a string
+eg. name="arun"
+length=len(name)
+printh(length)
+2. str()
+it is used for change an integer or float to string.
+
+3.  .lower()
+it is used to allow the characters in a string in lower case
+eg. str1="GEORGE"
+print(str1 .lower())
+4.   .upper()
+it allows the characters in a string in upper case.
+
+
+eg str2="arun"
+print(str2 .upper())
+
+*Format operator
+ it si using for replacing strings by using % symbol
+eg. name=input("what is your name")
+occupation=input("what is your occupation")
+print("your name is %s and your occupation is %s" % (name,occupation))
+
+*Flow control and comparators
+<,<=,>,>=,==,!=
+eg; print(5<6)
+print(12==2)
+check these examples in the pycham
+
+*If,Else and Elif
+
+eg  if 10==9:
+    print("both are same")
+else:
+    print("both are different ")
+
+the elif statement execute another statement rather than the first 
+if statement
+between if and else statement we can use any number of elif statement
+
+*Functions
+the function is using for code reusability. once a function is defined,
+it can be use over and over again.
+You can invoke the same function many times in your program,which
+saves your work.	
+$ function with zero parameters
+$function with 1 or more than 1 parameters
+ function with arguments (parameters) and with return value.
+ function with arguments (parameters) and without return value.
+ function without arguments (parameters) and without return value.
+ function without arguments (parameters) and with return value.
+
+function defining ; use keyword def
+eg; def eg():
+here 'eg' is the function name
+after unction defining we must call that function with the same function name
+eg; eg()
+
+
+
+
+
